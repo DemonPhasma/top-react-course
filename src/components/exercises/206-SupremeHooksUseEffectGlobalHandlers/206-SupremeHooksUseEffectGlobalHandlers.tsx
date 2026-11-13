@@ -1,6 +1,6 @@
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 
-function SupremeHooksUseEffectGlobalHandlers() {
+function SupremeHooksUseEffectGlobalHandlers(): void {
   useEffect(() => {
     const handleClick = () => {
       document.body.style.backgroundColor =
